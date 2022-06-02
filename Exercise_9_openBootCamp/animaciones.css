@@ -1,0 +1,26 @@
+button {
+  width: 200px;
+  height: 100px;
+  color: black;
+  background-color: rgb(219, 237, 85);
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  transition: 0.4s;
+  box-shadow: 4px 4px 5px 5px gray;
+  background-color: white;
+  color: rgb(233, 249, 54);
+  text-shadow: 6px 7px 7px black;
+}
