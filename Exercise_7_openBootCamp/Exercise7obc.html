@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios modernos</title>
+    <link rel="stylesheet" href="formularios.css" />
+  </head>
+
+  <body>
+    <h3>Regístrate en los formularios</h3>
+    <br /><br />
+    <div>
+      <picture>
+        <img src="imagenes/logo-google.png" alt="logo google" />
+      </picture>
+      <button class="button-font">Registrarse con Google</button>
+
+      <button class="btn-twitter">
+        <img src="imagenes/logo-twitter.png" alt="logo-twitter" />
+      </button>
+    </div>
+
+    <br /><br />
+
+    <hr />
+    <div class="container-box">
+      <p>O ...</p>
+
+      <form action="" method="">
+        <br /><br />
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" />
+        <div class="div-username">
+          <label for="username">Usuario</label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <br />
+        <label for="email">Email</label>
+        <input class="input-email" type="email" id="email" name="email" />
+
+        <br /><br />
+        <label for="password">Contraseña</label>
+        <input
+          class="input-password"
+          type="password"
+          id="password"
+          name="password"
+          placeholder=" 8+ caracteres"
+        />
+        <br /><br /><br /><br />
+        <div class="div-terminos">
+          <p class="parrafo-checkbox">Acepto los términos y condiciones</p>
+          <input class="input-checkbox" type="checkbox" name="checkbox" />
+        </div>
+
+        <button class="btn-submit" type="submit">Crear cuenta</button>
+      </form>
+    </div>
+  </body>
+</html>

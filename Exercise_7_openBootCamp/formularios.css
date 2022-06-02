@@ -1,0 +1,122 @@
+* {
+  background-color: #161717;
+  color: white;
+  font-family: "Libre Caslon Display", serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+div button {
+  background-color: cornflowerblue;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  margin-top: -3px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 4px solid white;
+  box-shadow: 1px 1px 10px;
+}
+
+div picture {
+  background-color: white;
+  width: 27px;
+  height: 30px;
+  margin-left: -140px;
+  position: absolute;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+div picture img {
+  width: 15px;
+  height: 15px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+/*BOTON DE TWITTER */
+.btn-twitter {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 220px;
+}
+
+.btn-twitter img {
+  width: 30px;
+  height: 30px;
+  margin-left: -26px;
+  margin-top: -13px;
+  position: absolute;
+}
+
+p {
+  position: absolute;
+  margin-top: -22px;
+}
+
+/* INPUTS */
+.input-email {
+  width: 100%;
+}
+
+.input-password {
+  width: 100%;
+}
+
+input {
+  background-color: #212121;
+  border: none;
+  border-radius: 10px;
+}
+
+input:hover {
+  background-color: #454045;
+}
+
+label {
+  display: block;
+}
+
+.div-username {
+  margin-left: 250px;
+  display: block;
+  margin-top: -38px;
+}
+
+.container-box {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  background-color: #eee;
+  border: none;
+  color: #eee;
+  height: 1px;
+  width: 400px;
+}
+
+.input-checkbox {
+  margin-left: -240px;
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: rgb(197, 15, 197);
+  margin-top: 10px;
+  margin-left: 130px;
+  padding-right: 25px;
+}
