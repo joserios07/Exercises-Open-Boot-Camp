@@ -1,0 +1,39 @@
+.contenedor {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  gap: 3em;
+}
+
+.barra {
+  background-color: blueviolet;
+  padding: 10px 5px;
+}
+
+.seccion {
+  background-color: cyan;
+  padding: 10px 5px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 640px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
